@@ -27,4 +27,9 @@ const drivers = ["Milo", "Otis", "Garfield"]
     let newDrivers = [name, ...drivers]
     return newDrivers
   }
+  
+    function prependDriver(name) {
+    let newDrivers = [name, ...drivers]
+    return newDrivers
+  }
  
