@@ -29,7 +29,8 @@ const drivers = ["Milo", "Otis", "Garfield"]
   }
   
     function removeLastDriver(name) {
-    let newDrivers = drivers.pop()
+    let newDrivers = drivers
+    newDrivers.pop()
     return newDrivers
   }
  
