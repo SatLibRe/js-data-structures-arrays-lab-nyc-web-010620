@@ -14,4 +14,8 @@ const drivers = ["Milo", "Otis", "Garfield"]
    drivers.pop(name)
  }
  
+    function destructivelyRemoveLastDriver(name) {
+   drivers.pop(name)
+ }
+ 
  
