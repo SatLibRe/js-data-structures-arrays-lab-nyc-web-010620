@@ -19,9 +19,7 @@ const drivers = ["Milo", "Otis", "Garfield"]
  }
  
     function appendDriver(name) {
-    let newDrivers = drivers
-    newDrivers.push(name)
-   return newDrivers
- }
+    let newDrivers = [name, ...drivers]
+  }
  
  
