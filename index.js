@@ -10,8 +10,8 @@ const drivers = ["Milo", "Otis", "Garfield"]
    drivers.unshift(name)
  }
  
-   function destructivelyPrependDriver(name) {
-   drivers.unshift(name)
+   function destructivelyRemoveLastDriver(name) {
+   drivers.pop(name)
  }
  
  
