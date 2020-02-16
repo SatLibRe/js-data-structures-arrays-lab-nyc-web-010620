@@ -28,8 +28,8 @@ const drivers = ["Milo", "Otis", "Garfield"]
     return newDrivers
   }
   
-    function prependDriver(name) {
-    let newDrivers = [name, ...drivers]
+    function removeLastDriver(name) {
+    let newDrivers = drivers.pop
     return newDrivers
   }
  
