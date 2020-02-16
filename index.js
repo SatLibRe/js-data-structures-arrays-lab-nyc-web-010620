@@ -23,8 +23,8 @@ const drivers = ["Milo", "Otis", "Garfield"]
     return newDrivers
   }
  
-  function appendDriver(name) {
-    let newDrivers = [ ...drivers, name]
+  function prependDriver(name) {
+    let newDrivers = [name, ...drivers]
     return newDrivers
   }
  
